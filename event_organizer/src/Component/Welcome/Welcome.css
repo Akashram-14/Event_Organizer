@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    background-image: url('C:\Users\AKASH\OneDrive\Desktop\Event Organzer\event_organizer\src\Component\Welcome\Welcome3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1550px 707px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .l1{
+    color: black;
+    font-size: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 400px;
+    margin-right: 300px;
+ }
+ #login
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 40px;
+    width: 90px;
+    margin-left:800px;
+    cursor: pointer;
+}
+#signup
+{
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    height: 40px;
+    width: 90px;
+    margin-left:900px;
+    cursor: pointer;
+}
+#login:hover{
+    background-color:plum;
+    color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  border-color:aqua;
+}
+#signup:hover{
+    background-color:black;
+    color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  border-color: aqua;
+}
+
+.l2{
+  color: black;
+  font-size: 65px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 400px;
+  margin-right: 300px;
+}

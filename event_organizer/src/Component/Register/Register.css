@@ -1,0 +1,77 @@
+#login_box{
+    background-color: rgba(239, 235, 235, 0.42);
+    margin-left: 510px;
+    height:900px;
+    width: 550px;
+    border-radius: 10px;
+}
+#title{
+    color: rgb(0, 0, 0);
+    margin-left: 160px;
+    margin-top: -65px;
+    margin-right: 400px;
+}
+#welcome{
+    margin-left: 99px;
+}
+#email_text{
+    margin-left: 60px;
+}
+#password_text{
+    Margin-left: 60px;
+}
+#text{
+    height: 40px;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+#forgot_pass{
+    margin-left: 60px;
+}
+
+#Conf_pass
+{
+     margin-left: 60px;
+}
+
+#age
+{
+     margin-left: 60px;
+}
+#num
+{
+    margin-left: 60px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#signin_button{
+    margin-left: 100px;
+    height: 60px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: rgb(105, 70, 201);
+    cursor: pointer;
+}
+#signin_button:hover{
+    background-color: rgb(192, 187, 206);
+}
+
+#sign_msg
+{
+    margin-left: 200px;
+}
+hr{
+    background-color: rgb(255, 0, 0);
+}
+
+#back1
+{
+    background-image: url('Register1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
