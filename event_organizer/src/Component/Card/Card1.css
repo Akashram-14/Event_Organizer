@@ -1,0 +1,14 @@
+/* Card1.css */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* or adjust the height as needed */
+}
+
+.sdd {
+  font-size: 34px;
+  color: red;
+}

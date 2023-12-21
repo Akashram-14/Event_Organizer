@@ -3,13 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
+    "react-card-flip": "^1.2.2",
+    "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
+    "react-globe": "^5.0.2",
     "react-icons": "^4.12.0",
+    "react-leaflet": "^4.2.1",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
+    "styled-components": "^6.1.1",
+    "three": "^0.159.0",
+    "three-glow-mesh": "^0.1.2",
+    "use-places-autocomplete": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.21.0"
   }
 }

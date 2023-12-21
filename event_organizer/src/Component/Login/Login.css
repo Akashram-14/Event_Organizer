@@ -1,120 +1,105 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    -webkit-fon-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  width: 1535px;
+  background: rgba(255, 255, 255, 0.8); /* Adjust opacity for visibility */
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); /* Adjust blur value */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
+  background-image: url('./Login1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   min-height: 100vh;
-  background: url('C:\Users\AKASH\OneDrive\Desktop\Event Organzer\event_organizer\src\Component\Login\Login1.jpeg')
-  no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+  padding: 30px;
 }
 
-
-code{
-  font-family: source-code-pro, Menlo,Monaco, Consolas, 'Courier New',
-  monospace;
-}
-.wrapper {
-  width: 420px;
-  background :transparent;
-  border:2px solid rgba(255,255,255,.2);
-  backdrop-filter:blur(0.1px);
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
-   color: black;
-  border-radius: 10px;
-  padding: 30px 40px;
-}
-
-.wrapper h1{
+.wrapper h1 {
   font-size: 36px;
   text-align: center;
 }
 
-.wrapper .input-box{
-  position: relative;
+.wrapper .input-box {
   width: 100%;
-  height: 50px;
   margin: 30px 0;
 }
 
-.input-box input{
+.wrapper .input-box input {
   width: 100%;
-  height: 100%;
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255,.2);
-  outline:none;
-  border-radius: 40px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
   font-size: 16px;
   color: black;
-  padding: 20px 45px 20px 20px;
 }
 
-
-.input-box input::placeholder{
+.wrapper .input-box input::placeholder {
   color: black;
 }
 
-.wrapper .remember-forgot{
+.wrapper .remember-forgot {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 14.5px;
-  margin: -15px 0 15px;
-
+  margin: 15px 0;
 }
 
-
-.remember-forgot label input{
-  accent-color: black;
+.remember-forgot label input {
   margin-right: 4px;
 }
 
-
-.remember-forgot a{
-  color: black;
+.remember-forgot a {
+  color:black;
   text-decoration: none;
 }
 
-.rember-forgot a:hover{
+.remember-forgot a:hover {
   text-decoration: underline;
 }
 
-.wrapper button{
+.wrapper button {
   width: 100%;
-  height:45px;
+  height: 45px;
   background: pink;
   border: none;
   outline: none;
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgba(0,0,0, .1);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 16px;
   color: #333;
   font-weight: 700;
 }
 
-.wrapper .register-link{
-  font-size: 14.5px;
+.wrapper .register-link {
   text-align: center;
   margin: 20px;
 }
 
-.register-link p a{
+.register-link p a {
   color: black;
   text-decoration: none;
   font-weight: 600;
 }
 
-.register-link p a:hover{
+.register-link p a:hover {
   text-decoration: underline;
 }

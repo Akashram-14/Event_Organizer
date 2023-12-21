@@ -1,61 +1,85 @@
+/* CSS */
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    background-image: url('C:\Users\AKASH\OneDrive\Desktop\Event Organzer\event_organizer\src\Component\Welcome\Welcome3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 1550px 707px;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
 
-  .l1{
-    color: black;
-    font-size: 65px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 400px;
-    margin-right: 300px;
- }
- #login
-{
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    height: 40px;
-    width: 90px;
-    margin-left:800px;
-    cursor: pointer;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-#signup
-{
-    background-color: rgb(245, 245, 245);
-    border-radius: 50px;
-    height: 40px;
-    width: 90px;
-    margin-left:900px;
-    cursor: pointer;
+
+.container {
+  position: relative;
 }
-#login:hover{
-    background-color:plum;
-    color: white;
+
+.overlay {
+  text-align: center;
+}
+
+.l1,
+.l2 {
+  color:white;
+  font-size: 65px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0; /* Remove any default margin */
+}
+
+#login
+{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#signup {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#login {
+  margin-right: 120px; /* Adjust the right value as needed */
+}
+
+#signup {
+  margin-right: 20px;
+}
+
+#login:hover
+{
+  background-color: plum;
+  color: white;
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
-  border-color:aqua;
+  border-color: aqua;
 }
-#signup:hover{
-    background-color:black;
-    color: white;
+#signup:hover {
+  background-color: black;
+  color: white;
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   border-color: aqua;
 }
 
-.l2{
-  color: black;
-  font-size: 65px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 400px;
-  margin-right: 300px;
+.img {
+  background-image: url('C:\Users\AKASH\OneDrive\Desktop\Event Organzer\event_organizer\src\Component\Welcome\queen.jpg'); /* Use a relative path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

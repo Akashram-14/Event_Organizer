@@ -1,0 +1,32 @@
+/* navbar.css */
+
+.navbar {
+  background: linear-gradient(to right, #3498db, #3a82bc, #058add, #43404e, #251f1e);
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 15px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  background-color: #a49492;
+}

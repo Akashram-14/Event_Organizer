@@ -1,77 +1,95 @@
-#login_box{
-    background-color: rgba(239, 235, 235, 0.42);
-    margin-left: 510px;
-    height:900px;
+/* CSS for Register component */
+#login_box {
+    background-color: rgba(187, 178, 178, 0.585); /* Darker background color */
     width: 550px;
-    border-radius: 10px;
-}
-#title{
-    color: rgb(0, 0, 0);
-    margin-left: 160px;
-    margin-top: -65px;
-    margin-right: 400px;
-}
-#welcome{
-    margin-left: 99px;
-}
-#email_text{
-    margin-left: 60px;
-}
-#password_text{
-    Margin-left: 60px;
-}
-#text{
-    height: 40px;
-    width: 400px;
-    margin-left: 60px;
-    border-radius: 10px;
-}
-#forgot_pass{
-    margin-left: 60px;
+    border-radius: 60px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-#Conf_pass
-{
-     margin-left: 60px;
+#welcome {
+    margin: 20px 0;
+    text-align: center;
 }
 
-#age
-{
-     margin-left: 60px;
-}
-#num
-{
-    margin-left: 60px;
-    height: 40px;
-    width: 400px;
+#email_text,
+#password_text,
+#age {
+    margin-left: 0;
     border-radius: 10px;
+    font-size: larger;
+    text-align: left; /* Align labels to the left */
+}
+
+#name,
+#email,
+#mobile,
+#password {
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 231, 231, 0.566); /* Darker background color for text boxes */
+    outline: none;
+    border: 2px solid rgba(255,231,231, 0.566); /* Darker border color for text boxes */
+    font-size: 16px;
+    color: black; /* Text color */
+}
+
+#name::placeholder,
+#email::placeholder,
+#mobile::placeholder,
+#password::placeholder {
+    color: black; /* Placeholder text color */
 }
 
 #signin_button{
-    margin-left: 100px;
+    margin-top: 20px;
     height: 60px;
-    width: 330px;
+    width: 80%;
     border-radius: 10px;
     background-color: rgb(105, 70, 201);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    margin: 0 auto;
 }
-#signin_button:hover{
+
+#login_button {
+    margin-top: 20px;
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(105, 70, 201);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    margin: 0 auto;
+}
+
+#signin_button:hover,
+#login_button:hover {
     background-color: rgb(192, 187, 206);
 }
 
-#sign_msg
-{
-    margin-left: 200px;
-}
-hr{
-    background-color: rgb(255, 0, 0);
+.error-message {
+    color: red;
 }
 
-#back1
-{
-    background-image: url('Register1.jpg');
+#back1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Register1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    margin: 0;
+    padding: 0;
 }

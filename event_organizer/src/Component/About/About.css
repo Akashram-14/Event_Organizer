@@ -1,0 +1,50 @@
+/* NittyGritty.css */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#nitty-gritty-section {
+  max-width: 800px;
+  padding: 20px;
+  background-color: plum;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text inside the container */
+}
+
+#nitty-gritty-section h2,
+#nitty-gritty-section h3,
+#nitty-gritty-section p {
+  margin-bottom: 20px;
+}
+
+#nitty-gritty-section a {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+#nitty-gritty-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  #nitty-gritty-section {
+    padding: 15px;
+  }
+
+  #nitty-gritty-section h2 {
+    font-size: 2em;
+  }
+
+  #nitty-gritty-section h3 {
+    font-size: 1.5em;
+  }
+
+  #nitty-gritty-section p {
+    font-size: 1em;
+  }
+}
