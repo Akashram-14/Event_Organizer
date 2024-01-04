@@ -29,6 +29,7 @@ const pages = [
   { label: 'Home', link: '/Home', icon: <HomeIcon /> },
   { label: 'Events', link: '/Events', icon: <PetsOutlinedIcon /> },
   { label: 'Location', link: '/Location', icon: <StorefrontOutlinedIcon /> },
+  { label: 'Clients', link: '/Clients', icon: <StorefrontOutlinedIcon /> },
   { label: 'About', link: '/About', icon: <AccountBoxOutlinedIcon /> },
 ];
 

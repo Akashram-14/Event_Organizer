@@ -11,6 +11,7 @@ import TermsAndConditions from './Component/Footer/Terms';
 import PrivacyPolicy from './Component/Footer/Privacy';
 import Events from './Component/Events/Events';
 import Card from './Component/Card/Card1';
+import Clients from './Component/Clients/Clients';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path='/Events' element={<Events/>} />
             <Route path='/Card' element={<Card/>} />
             <Route path='/Location' element={<Location/>}/> 
+            <Route path='/Clients' element={<Clients/>} />
         </Routes>
       </div>
     </Router> 

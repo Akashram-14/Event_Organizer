@@ -12,53 +12,69 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  /* background-color: #ffc0cb;  */
 }
 
 .content-container h1 {
-color: #333;
+  color: #333;
 }
 
 .content-container p {
-color: #666;
+  color: #666;
 }
 
 .footer-container {
-padding: 20px;
-background-color: #ffc0cb; /* Light pink background color */
-text-align: center;
+  padding: 20px;
+  background-color: #ffc0cb; /* Light pink background color */
+  text-align: center;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-between; /* Adjust as needed */
+/* Arrange reviews in a grid */
+.user-reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 20px; /* Adjust the gap between reviews */
+  justify-content: center;
+}
+
+.user-reviews .user-review {
+  max-width: 400px; /* Adjust as needed */
+}
+
+.user-reviews .user-review h3 {
+  margin: 0;
+  color: #333;
+}
+
+.user-reviews .user-review p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.user-review {
+  background-color: #fffacd; /* Light yellow color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.user-review:hover {
+  transform: translateY(-5px); /* Adjust the amount of lift as needed */
+}
+
+/* Add space between each box */
+.user-review + .user-review {
   margin-top: 20px;
 }
 
-
-/* home.css */
-.main-container {
-
-min-height: 100vh;
-/* background-image: url('bac2.webp'); Replace with the path to your image */
-background-size: cover;
-background-position: center;
-
-}
-
-.img1{
-
-width: 7cm;
-height: 7cm;
-margin-left: 300px;
-margin-bottom: 20px;
-}
-
-.img2
-{
-  width: 7cm;
-height: 7cm;
-margin-left: -1200px;
-margin-top: -2000px;
-margin-bottom: 300px;
+/* Add styling for the birthday image */
+.img2 {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
 }

@@ -1,0 +1,31 @@
+/* UserReview.css */
+.user-review {
+  background-color: #fffacd; /* Light yellow color */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Adjust as needed */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.user-review:hover {
+  transform: translateY(-5px); /* Adjust the amount of lift as needed */
+}
+
+.user-review h3 {
+  margin: 0;
+  color: #333;
+}
+
+.user-review p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5; /* Ensures 3 lines below each other */
+}
+
+/* Add space between each box */
+.user-review + .user-review {
+  margin-top: 20px;
+}
